@@ -1,0 +1,52 @@
+Theater Management System
+
+
+•	Jiaming Ding
+•	Qixuan Huang 
+•	Yang Dai
+•	Yingjie Sun
+•	Zihua Pei
+
+
+Introduction
+
+When administrations decide to centralize a large number of specific works or roles into a particular management system, some of the most important considerations are whether this kind of concentration will reduce the operation cost and increase the work efficiency. This idea also occurs within the running of a theater at Stevens Institute of Technology. We are building up a theater management system or TMS as a digital solution system that plays a vital role in managing all your operations. 
+There are several distinct advantages of using our TMS. It will help you reduce human error, simplify the busy and disordered tasks, and optimize your management operations. At Stevens Institute of Technology, a small group of officers, usually less than ten persons, are daily operating and arranging the whole extensive ticket system that servers thousands of students. Corresponding with this massive work, a small error like a lost log in the tickets information or forget to change the ticket price will cause serious lousy customer feedback or substantial profit losses. Hence, to reduce the potential errors occurred manually, the best possible way is to automate the theater's management processes. And this is exactly what our TMS offers you.
+
+
+Core Feature
+
+1.	Pages:
+a.	Main page: Shows currently available movies and some icons which direct users to other subpages. 
+b.	Sorting page: Users can filter or sort showing movie by name, genre or rate. 
+c.	Booking page: Users without login cannot book ticket. Users will be prompted to login. Users can book movie ticket by selecting cinema, date and time.
+d.	User Login page: Users will be prompted to sign up if never registered before. Users use account name/email and password to login and automatically redirect to booking page or main page users stay before login.
+e.	Personal Profile page: Users without login cannot navigate personal profile. Users can see their account details and their previous orders.
+f.	Administration page: Administrator can do all basic CRUD(create retrieve, update, and delete) operations to movies and schedules. Administrators can book or refund ticket for users.
+2.	User Module
+a.	Register: Users can create a account with their basic information.
+b.	Log In: Users use their account and password to log in. 
+c.	Change Password: Users can change their password.
+d.	Search: Search the movies by movies name, movies type and so on.
+e.	Select Seat: Users can choose their seats in the movies they want to watch.
+f.	Book (show, seat, time): Users can book movies through movie information.
+g.	Refund: After booking movie tickets, users can cancel the reservation if they don’t want to watch.
+h.	Check history order: Users can view their own historical orders.
+3.	Administrator Module
+a.	Add Movie: Provide valid data, generate a new movie in database
+b.	Delete Movie: Provide valid data (id), delete all movie who match the condition in the database
+c.	Update Movie (by id): Provide valid data (must include id), update all movie who match the condition in the database
+d.	Add Session (by id): Add session for movie who match the id in the database
+e.	Delete Session (by id): Delete session for movie who match the id in the database
+f.	Update Session (by id): Update session for movie who match the id in the database
+g.	Search Movie (by name): Get all movie who match the name in the database
+h.	Order Tickets (by user.id, movie.id): help user to order tickets, add tickets that match the condition in user’s account
+i.	Refund Tickets (by user.id, movie.id): help user to refund tickets, delete tickets that match the condition in user’s account
+
+
+Extra Feature
+
+1.	Scoring System: Audiences can rate and comment on the films they watch.
+2.	Recommendation System: A combination of many aspects, including booking number, score from audiences, management arrangement, displaying on the front page.
+3.	Student Special Price: It dependents on your email address. If the email address suffix in your profile is 'stevens.edu', you will enjoy 80 percent of the full price.
+
