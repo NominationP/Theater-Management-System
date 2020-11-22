@@ -1,0 +1,79 @@
+#login {
+position:relative;
+top:0;
+right:0;
+z-index:200;
+min-width:0;
+width:8%;
+float: right;
+}
+
+.movies{
+	float: left;
+	margin-left: 75px;
+	line-height: 30px;
+}
+
+.movies li{
+	font-size:16px;
+}
+
+.movies img{
+	height:300px;
+	font-weight:200px;
+}
+
+li {
+	list-style:none
+}
+
+html,
+body {
+	font-size: 12pt;
+}
+
+body {
+	background: #00FFFF;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+	max-width: 85%;
+	margin: auto;
+}
+
+header {
+	border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2 {
+	color: #222;
+	margin-bottom: 6px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+p {
+	color: #FF3D00;
+}
+
+.is-prime {
+	color: #00E676;
+}
+
+.not-prime {
+	color: #FF3D00;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+

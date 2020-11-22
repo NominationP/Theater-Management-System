@@ -1,0 +1,18 @@
+<h1>Stevens Theater</h1>
+
+<div id="login">
+    <a href="/login">Login</a>
+</div>
+
+<h2>Hot Line</h2>
+<hr />
+
+<div id="movies">
+    {{#each movieList}}
+    <ul class="movies">
+        <li>{{moviename}}</li>
+        <li>rating: {{rating}}</li>
+        <img id = "movieImg" src={{image}} onclick="window.open('movie/{{id}}','_self')"/>
+    </ul>
+    {{/each}}
+</div>
