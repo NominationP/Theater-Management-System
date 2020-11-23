@@ -16,6 +16,7 @@ float: right;
 
 .movies li{
 	font-size:16px;
+	list-style:none
 }
 
 .movies img{
@@ -23,9 +24,16 @@ float: right;
 	font-weight:200px;
 }
 
-li {
-	list-style:none
+#recommendation {
+	width: 450px;
+	margin: 0px;
+	padding: 0px;
 }
+
+span{
+	color:#FF3D00;
+}
+
 
 html,
 body {

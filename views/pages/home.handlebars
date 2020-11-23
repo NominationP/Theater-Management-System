@@ -1,18 +1,33 @@
-<h1>Stevens Theater</h1>
+<h2>Stevens Theater</h2>
 
 <div id="login">
     <a href="/login">Login</a>
 </div>
 
-<h2>Hot Line</h2>
+<h3>Hot Line</h3>
 <hr />
 
 <div id="movies">
     {{#each movieList}}
     <ul class="movies">
         <li>{{moviename}}</li>
-        <li>rating: {{rating}}</li>
-        <img id = "movieImg" src={{image}} onclick="window.open('movie/{{id}}','_self')"/>
+        <li>Run Time: {{runtime}}</li>
+        <img id="movieImg" src={{image}} onclick="window.open('movie/{{id}}','_self')" />
     </ul>
     {{/each}}
 </div>
+
+<h3>Recommendation</h3>
+
+<div id="recommendation">
+    {{#each ratingList}}
+    <ul onclick="window.open('movie/{{id}}','_self')">
+        <li id = "myLi">{{moviename}}<span style="float:right">{{rating}}</span></li>
+
+    </ul>
+
+    {{/each}}
+</div>
+<style>
+
+</style>
